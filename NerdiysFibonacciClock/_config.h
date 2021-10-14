@@ -85,13 +85,13 @@
 #define BUTTON_DEBOUNCE_VALUE 50 //in ms
 
 // Input-pins
-#define HOUR_PIN 7//3
-#define HOUR_PIN_RES 8//3
-#define MINUTE_PIN 3//4
-#define MINUTE_PIN_RES 4//4
-#define BRIGHTNESS_PIN 9//5
-#define BRIGHTNESS_PIN_RES 10//5
-#define MODE_PIN 5//6
+#define HOUR_PIN 7
+#define HOUR_PIN_RES 8
+#define MINUTE_PIN 3
+#define MINUTE_PIN_RES 4
+#define BRIGHTNESS_PIN 9
+#define BRIGHTNESS_PIN_RES 10
+#define MODE_PIN 5
 #define MODE_PIN_RES 6
 #define PLUS_PIN 11
 #define PLUS_PIN_RES 12
@@ -102,14 +102,6 @@
 // These values should work in most cases.
 #define RELEASE_THRESHOLD 500
 #define TOUCH_THRESHOLD 500
-
-//Papas uhr
-//#define HOUR_PIN 6//3
-//#define MINUTE_PIN 17//4
-//#define BRIGHTNESS_PIN 15//5
-//#define MODE_PIN 16//6
-//#define PLUS_PIN 14
-//#define MINUS_PIN 9
 
 // == Led-Strip-Setup ============================================================================
 
