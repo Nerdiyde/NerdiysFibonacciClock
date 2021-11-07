@@ -64,7 +64,7 @@
 // and (of course) i2c display will be disabled. Due to little memory it is not possible to
 // activate serial console and i2c display at the same time.
 
-#define I2C_DISPLAY_INSTALLED
+//#define I2C_DISPLAY_INSTALLED
 
 #define DISPLAY_I2C_ADRESS 0x3C
 #define DISPLAY_ROTATION 0
@@ -106,12 +106,12 @@
 // == Led-Strip-Setup ============================================================================
 
 #define STRIP_PIN 13
-//Papas Uhr:
+//Alternativ:
 //#define STRIP_PIN 2
 
 // == Timeclock-Setup ============================================================================
 
-#define TIME_CLOCK_ENABLED
+//#define TIME_CLOCK_ENABLED
 #define TIME_CLOCK_HOUR_ON_STANDARD_VALUE 7
 #define TIME_CLOCK_MINUTE_ON_STANDARD_VALUE 30
 #define TIME_CLOCK_HOUR_OFF_STANDARD_VALUE 23
