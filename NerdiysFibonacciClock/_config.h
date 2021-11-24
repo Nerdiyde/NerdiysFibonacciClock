@@ -64,7 +64,7 @@
 // and (of course) i2c display will be disabled. Due to little memory it is not possible to
 // activate serial console and i2c display at the same time.
 
-//#define I2C_DISPLAY_INSTALLED
+#define I2C_DISPLAY_INSTALLED
 
 #define DISPLAY_I2C_ADRESS 0x3C
 #define DISPLAY_ROTATION 0

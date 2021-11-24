@@ -67,6 +67,7 @@ void load_eeprom_data()
     brightnessDesired = 1.0;
   if (brightnessDesired <= 0.0)
     brightnessDesired = 0.1;
+    
   if (mode >= MAX_MODES)
     mode = 0;
   if (palette >= TOTAL_PALETTES)

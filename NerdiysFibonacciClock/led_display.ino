@@ -398,7 +398,7 @@ void init_ldr()
 {
   //init ldr sensor
   analogReference(EXTERNAL);
-  pinMode(LDR_PIN, INPUT_PULLUP);
+  pinMode(LDR_PIN, INPUT);
 }
 
 void check_brightness()

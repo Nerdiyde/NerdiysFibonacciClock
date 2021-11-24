@@ -83,7 +83,7 @@ String runtime_formatted()
 void print_time_to_serial_output()
 {
   //prints the actual time, runtime and mode to serial console
-  String outputLocal = LNG_PRINT_TIME_TO_SERIAL_OUTPUT_ACTUAL_MODE + String(mode);
+  String outputLocal = LNG_PRINT_TIME_TO_SERIAL_OUTPUT_TITLE + String(" ") + timeofday_plus_seconds_and_date_formatted();
   print_to_log(F(LNG_PRINT_TIME_TO_SERIAL_OUTPUT_TITLE), outputLocal, true);
 }
 #endif
